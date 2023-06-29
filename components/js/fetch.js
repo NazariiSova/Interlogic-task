@@ -35,3 +35,9 @@ fetch('../jackpots/jackpots.html')
     .then(data => {
         document.getElementById('integrationComponent').innerHTML = data;
     });
+
+    fetch('../app/app.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('appComponent').innerHTML = data;
+    });

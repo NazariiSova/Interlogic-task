@@ -23,15 +23,31 @@ body {
   height: 88px;
   border-radius: 50px;
 }
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+}
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #242f51;
+}
 
 @media (max-width: 1280px) {
   .circle {
     width: 50px;
     height: 50px;
   }
-  .circle-img{
+  .circle-img {
     height: 25px;
     width: 25px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 25px;
   }
 }
 
