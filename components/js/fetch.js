@@ -17,9 +17,21 @@ fetch('../partners/partners.html')
         document.getElementById('partnersComponent').innerHTML = data;
     });
 
-    fetch('../features/features.html')
+fetch('../features/features.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('featuresComponent').innerHTML = data;
     });
 
+fetch('../jackpots/jackpots.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('jackpotsComponent').innerHTML = data;
+    });
+
+    
+    fetch('../integration/integration.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('integrationComponent').innerHTML = data;
+    });

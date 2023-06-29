@@ -1,0 +1,184 @@
+.integration {
+  margin-top: 118px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+.integration__img-container {
+  background-image: url("../img/background/integration.png");
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 600px;
+  position: relative;
+}
+.integration__img-java-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(calc(-50% + -228px), 125px);
+}
+.integration__img-hashtag-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(calc(-50% + -140px), 35px);
+}
+.integration__img-git-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(calc(-50% + -29px), 84px);
+}
+.integration__img-bird-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(calc(-50% + 68px), 28px);
+}
+.integration__img-swift-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(calc(-50% + 85px), 213px);
+}
+.integration__img-hexagon-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(calc(-50% + 197px), 177px);
+}
+.integration__text-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #242f51;
+}
+.integration__text-description {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+}
+.integration__text-button {
+  margin-top: 40px;
+}
+
+@media (max-width: 1280px) {
+  .integration {
+    margin-top: 80px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+  .integration__img-container {
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+  }
+  .integration__img-java{
+    height: 48px;
+  }
+  .integration__img-hashtag{
+    height: 43px;
+  }
+  .integration__img-git{
+    height: 38px;
+  }
+  .integration__img-bird{
+    height: 38px;
+  }
+  .integration__img-swift{
+    height: 38px;
+  }
+  .integration__img-hexagon{
+    height: 41px;
+  }
+  .integration__img-java-container {
+    transform: translate(calc(-50% + -152px), 82px);
+  }
+  .integration__img-hashtag-container {
+    transform: translate(calc(-50% + -93px), 22px);
+  }
+  .integration__img-git-container {
+    transform: translate(calc(-50% + -19px), 56px);
+  }
+  .integration__img-bird-container {
+    transform: translate(calc(-50% + 46px), 18px);
+  }
+  .integration__img-swift-container {
+    transform: translate(calc(-50% + 57px), 142px);
+  }
+  .integration__img-hexagon-container {
+    transform: translate(calc(-50% + 132px), 118px);
+  }
+  .integration__text-title {
+    font-size: 25px;
+  }
+  .integration__text-description {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .integration__text-button {
+    margin-top: 15px;
+    
+  }
+}
+
+@media (max-width: 796px) {
+    .integration {
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5px;
+      margin-right: 25px;
+    }
+    .integration__img-container {
+      background-size: 300px;
+      width: 300px;
+      height: 300px;
+    }
+  
+    .integration__img-java{
+      height: 35px;
+    }
+    .integration__img-hashtag{
+      height: 33px;
+    }
+    .integration__img-git{
+      height: 29px;
+    }
+    .integration__img-bird{
+      height: 28px;
+    }
+    .integration__img-swift{
+      height: 28px;
+    }
+    .integration__img-hexagon{
+      height: 32px;
+    }
+    .integration__img-java-container {
+      transform: translate(calc(-50% + -114px), 62px);
+    }
+    .integration__img-hashtag-container {
+      transform: translate(calc(-50% + -70px), 17px);
+    }
+    .integration__img-git-container {
+      transform: translate(calc(-50% + -14px), 41px);
+    }
+    .integration__img-bird-container {
+      transform: translate(calc(-50% + 35px), 15px);
+    }
+    .integration__img-swift-container {
+      transform: translate(calc(-50% + 43px), 106px);
+    }
+    .integration__img-hexagon-container {
+      transform: translate(calc(-50% + 100px), 88px);
+    }
+    .integration__text-container {
+      margin-left: 10px;
+    }
+  
+    .integration__text-description {
+      margin-top: 10px;
+    }
+    .integration__text-button {
+      margin-top: 15px;
+      
+    }
+  }

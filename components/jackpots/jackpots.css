@@ -1,0 +1,204 @@
+.jackpots {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 80px;
+}
+.jackpots__titles-container {
+  display: flex;
+  align-items: center;
+}
+
+.jackpots__title-line {
+  width: 1px;
+  height: 147px;
+  background-color: #b9b9b8;
+  margin-left: 74px;
+  margin-right: 48px;
+}
+
+.jackpots__title-main {
+  width: 440px;
+  color: #242f51;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.jackpots__title-small {
+  font-size: 16px;
+  color: #616368;
+  width: 420px;
+}
+
+.jackpots__items-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 109px 0 0 50px;
+  width: 1030px;
+}
+
+.jackpots__item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.jackpots__payouts-img-container {
+  background-color: #ffecef;
+}
+.jackpots__network-img-container {
+  background-color: #f4f4ff;
+}
+.jackpots__reward-img-container {
+  background-color: #e4ffee;
+}
+.jackpots-list-title {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.jackpots__text-payouts-title {
+  color: #f55767;
+}
+.jackpots__text-network-title {
+  color: #2563ff;
+}
+.jackpots__text-reward-title {
+  color: #40975f;
+}
+.jackpots-list-description {
+  margin-top: 15px;
+  color: #616368;
+}
+
+@media (max-width: 1280px) {
+  .jackpots {
+    margin-top: 80px;
+    margin-right: 0px;
+  }
+  .jackpots__titles-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .jackpots__title-line {
+    height: 105px;
+    margin-left: 14px;
+    margin-right: 18px;
+  }
+
+  .jackpots__title-main {
+    width: 280px;
+    font-size: 25px;
+  }
+
+  .jackpots__title-small {
+    font-size: 12px;
+    width: 320px;
+  }
+
+  .jackpots__items-container {
+    margin: 50px 0 0 0;
+    width: 750px;
+  }
+
+  .jackpots__item-box {
+    width: 200px;
+  }
+  .jackpots-list-title {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .jackpots-list-description {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 796px) {
+  .jackpots {
+    margin-top: 80px;
+  }
+
+  .jackpots__titles-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .jackpots__title-line {
+    width: 200px;
+    height: 1px;
+    background-color: #b9b9b8;
+    margin: 20px 40px 0 0;
+  }
+
+  .jackpots__title-main {
+    width: 300px;
+    color: #242f51;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .jackpots__title-small {
+    font-size: 10px;
+    color: #616368;
+    width: 300px;
+    margin-top: 15px;
+  }
+
+  .jackpots__items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 29px 0 0 0;
+    width: 300px;
+    position: relative;
+  }
+
+  .jackpots__item-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .jackpots__payouts-img-container,
+  .jackpots__network-img-container,
+  .jackpots__reward-img-container {
+    margin-top: 10px;
+    width: 240px;
+    height: 240px;
+  }
+
+  .jackpots__text-text {
+    margin-top: 10px;
+    padding-left: 30px;
+  }
+
+  .jackpots__text-payouts-title {
+    color: #f55767;
+  }
+
+  .jackpots__text-network-title {
+    color: #2563ff;
+  }
+
+  .jackpots__text-reward-title {
+    color: #40975f;
+  }
+
+  .jackpots-list-title {
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  .jackpots-list-description {
+    width: 240px;
+    margin-top: 0px;
+    font-size: 10px;
+    color: #616368;
+  }
+}
