@@ -115,7 +115,7 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    /* пересунути на 200-300 пікселів до гори */
+    
   }
 
   .home__background3 {
@@ -123,7 +123,7 @@
     background-image: url("../img/background/transparent.png");
     background-repeat: no-repeat;
     width: 100%;
-    /* зробити прозорим */
+ 
   }
   .home__text {
     display: block;
@@ -199,7 +199,7 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    /* пересунути на 200-300 пікселів до гори */
+  
   }
 
   .home__background3 {
@@ -208,7 +208,7 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    /* зробити прозорим */
+   
   }
   .home__text {
     display: flex;
@@ -216,7 +216,7 @@
     margin-top: 0px;
     order: 2;
     position: relative;
-    left: 20px;
+    
   }
 
   .home__inscription-text {
