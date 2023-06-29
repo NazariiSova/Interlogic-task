@@ -1,0 +1,259 @@
+.home {
+  margin-inline: 215px;
+  display: flex;
+  margin-inline: auto;
+  justify-content: space-around;
+  width: 100%;
+  height: 850px;
+  background-color: #fdfdfe;
+  background-image: url("../img/background/city.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.home__background2 {
+  position: absolute;
+  background-image: url("../img/background/X&0.png");
+  background-position: -111px;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.home__background3 {
+  position: absolute;
+  background-image: url("../img/background/transparent.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.home__text {
+  display: block;
+  margin-top: 250px;
+  z-index: 1;
+}
+.home__inscription {
+  display: flex;
+}
+.home__inscription-icon {
+  background-color: #feaa25;
+  height: 35px;
+  width: 39px;
+  border-radius: 50px;
+  z-index: 1;
+}
+.home__inscription-icon-img {
+  height: 19px;
+}
+.home__inscription-text {
+  background-color: #e2eaed;
+  height: 35px;
+
+  border-radius: 50px;
+  width: 362px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #242f51;
+  position: relative;
+  left: -40px;
+  z-index: 0;
+}
+.home__title {
+  color: #242f51;
+  font-weight: 600;
+  font-size: 60px;
+}
+.home__description {
+  color: #616368;
+  font-weight: 400;
+  font-size: 18px;
+}
+.home__bottom-container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.home__bottom-video {
+  font-weight: 400;
+  font-size: 18px;
+  color: #2500f9;
+  margin-left: 27px;
+}
+.home__img {
+  margin-top: 55px;
+  height: 732px;
+  z-index: 1;
+}
+
+@media (max-width: 1360px) {
+  .home {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1280px) {
+  .home {
+    margin-inline: 215px;
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-color: #fdfdfe;
+    background-image: url("../img/background/city.png");
+    background-position: 0 550px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+  .home__background2 {
+    position: absolute;
+    background-image: url("../img/background/X&0.png");
+    background-position: left -111px bottom 0px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* пересунути на 200-300 пікселів до гори */
+  }
+
+  .home__background3 {
+    position: absolute;
+    background-image: url("../img/background/transparent.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    /* зробити прозорим */
+  }
+  .home__text {
+    display: block;
+    margin-top: 250px;
+    height: 300px;
+    z-index: 1;
+  }
+  .home__inscription {
+    display: flex;
+  }
+  .home__inscription-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #feaa25;
+    height: 30px;
+    width: 35px;
+    border-radius: 50px;
+    z-index: 1;
+  }
+  .home__inscription-icon-img {
+    height: 15px;
+  }
+  .home__inscription-text {
+    height: 30px;
+    width: 310px;
+    font-size: 15px;
+    left: -35px;
+  }
+  .home__title {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .home__description {
+    font-size: 12px;
+  }
+  .home__bottom-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+  .home__bottom-video {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .home__img-container {
+    z-index: 1;
+  }
+  .home__img {
+    margin-top: 55px;
+    height: 632px;
+  }
+}
+
+@media (max-width: 796px) {
+  .home {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../img/background/city.png");
+    background-position: 0 790px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+
+  .home__background2 {
+    position: absolute;
+    background-image: url("../img/background/X&0.png");
+    background-position: -111px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* пересунути на 200-300 пікселів до гори */
+  }
+
+  .home__background3 {
+    position: absolute;
+    background-image: url("../img/background/transparent.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* зробити прозорим */
+  }
+  .home__text {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    order: 2;
+    position: relative;
+    left: 20px;
+  }
+
+  .home__inscription-text {
+    height: 32px;
+    width: 320px;
+    font-size: 16px;
+    left: -30px;
+  }
+  .home__inscription-icon {
+    height: 32px;
+    width: 35px;
+  }
+  .home__title {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  .home__description {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .home__bottom-container {
+    margin-top: 20px;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  .home__bottom-video {
+    font-size: 12px;
+    margin-left: 17px;
+  }
+  .home__img-container {
+    order: 1;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .home__img {
+    margin-top: 15px;
+    height: 432px;
+  }
+}
