@@ -1,43 +1,55 @@
-fetch('../header/header.html')
+fetch('./components/header/header.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('headerComponent').innerHTML = data;
     });
 
-fetch('../home/home.html')
+fetch('./components/home/home.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('homeComponent').innerHTML = data;
     });
 
 
-fetch('../partners/partners.html')
+fetch('./components/partners/partners.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('partnersComponent').innerHTML = data;
     });
 
-fetch('../features/features.html')
+fetch('./components/features/features.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('featuresComponent').innerHTML = data;
     });
 
-fetch('../jackpots/jackpots.html')
+fetch('./components/jackpots/jackpots.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('jackpotsComponent').innerHTML = data;
     });
 
     
-    fetch('../integration/integration.html')
+    fetch('./components/integration/integration.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('integrationComponent').innerHTML = data;
     });
 
-    fetch('../app/app.html')
+    fetch('./components/app/app.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('appComponent').innerHTML = data;
+    });
+
+    fetch('./components/ultimate/ultimate.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('ultimateComponent').innerHTML = data;
+    });
+
+    fetch('./components/cards/cards.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('cardsComponent').innerHTML = data;
     });

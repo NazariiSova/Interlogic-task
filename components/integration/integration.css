@@ -43,16 +43,8 @@
   left: 50%;
   transform: translate(calc(-50% + 197px), 177px);
 }
-.integration__text-title {
-  font-size: 36px;
-  font-weight: 600;
-  color: #242f51;
-}
 .integration__text-description {
   margin-top: 30px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #616368;
 }
 .integration__text-button {
   margin-top: 40px;
@@ -107,12 +99,9 @@
   .integration__img-hexagon-container {
     transform: translate(calc(-50% + 132px), 118px);
   }
-  .integration__text-title {
-    font-size: 25px;
-  }
+  
   .integration__text-description {
     margin-top: 10px;
-    font-size: 12px;
   }
   .integration__text-button {
     margin-top: 15px;

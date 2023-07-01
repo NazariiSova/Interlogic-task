@@ -1,9 +1,16 @@
 
-function myFunction() {
-    const x = document.getElementById("header-menu");
-    if (x.style.display === "flex") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "flex";
-    }
-  }
+function handlerShowMenu() {
+  const hamburger = document.getElementById("header-menu-hamburger");
+  hamburger.classList.add("show-menu")
+  hamburger.classList.remove("hide-menu");
+
+}
+
+function handlerHideMenu() {
+  const hamburger = document.getElementById("header-menu-hamburger");
+  hamburger.classList.remove("show-menu");
+  hamburger.classList.add("hide-menu");
+  setTimeout(() => {
+    hamburger.classList.remove("hide-menu")
+  }, 100)
+}

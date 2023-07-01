@@ -1,22 +1,16 @@
 .app {
-  margin-top: 210px;
+  margin-top: 180px;
   text-align: center;
 }
-
 .app__title {
   text-align: center;
-  font-size: 36px;
-  font-weight: 600;
-  color: #242f51;
 }
-
 .app__cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 24px;
 }
-
 .app__card {
   width: calc(33.33% - 20px);
   margin: 10px;
@@ -25,54 +19,45 @@
 .app__card-image-app {
   background-color: #ffecef;
 }
-
 .app__card-image-award {
   background-color: #eaf9ff;
 }
-
 .app__card-image-cloud {
   background-color: #fff6d3;
 }
-
 .app__card-image-customization {
   background-color: #e4ffee;
 }
-
 .app__card-image-ux {
   background-color: #f4f4ff;
 }
-
 .app__card-image-support {
   background-color: #fdeee4;
 }
-
 .app__card-image {
   margin-inline: auto;
   margin-top: 70px;
 }
-
 .app__card-title {
   margin-top: 36px;
   color: #242f51;
   font-size: 20px;
   font-weight: 600;
-
 }
-
 .app__card-description {
   margin-top: 16px;
 }
-
 .app__card-img {
   height: 50px;
 }
 
-
 @media (max-width: 1280px) {
+  .app{
+    margin-top: 100px;
+  }
   .app__cards {
     justify-content: center;
   }
-
   .app__card {
     width: calc(50% - 20px);
   }
@@ -80,44 +65,21 @@
     height: 25px;
   }
   .app__card-image {
-    margin-inline: auto;
     margin-top: 20px;
   }
-  
   .app__card-title {
     margin-top: 16px;
-
-  
   }
-  
   .app__card-description {
     margin-top: 10px;
   }
 }
 
 @media (max-width: 796px) {
-    .app__cards {
-      justify-content: center;
-    }
-  
+  .app{
+    margin-top: 50px;
+  }
     .app__card {
       width: calc(50% - 10px);
-    }
-    .app__card-img {
-      height: 25px;
-    }
-    .app__card-image {
-      margin-inline: auto;
-      margin-top: 20px;
-    }
-    
-    .app__card-title {
-      margin-top: 16px;
-  
-    
-    }
-    
-    .app__card-description {
-      margin-top: 10px;
     }
   }

@@ -26,8 +26,6 @@
 }
 
 .jackpots__title-small {
-  font-size: 16px;
-  color: #616368;
   width: 420px;
 }
 
@@ -69,7 +67,6 @@
 }
 .jackpots-list-description {
   margin-top: 15px;
-  color: #616368;
 }
 
 @media (max-width: 1280px) {
@@ -94,7 +91,6 @@
   }
 
   .jackpots__title-small {
-    font-size: 12px;
     width: 320px;
   }
 
@@ -103,9 +99,7 @@
     width: 750px;
   }
 
-  .jackpots__item-box {
-    width: 200px;
-  }
+
   .jackpots-list-title {
     margin-top: 12px;
     font-size: 12px;
@@ -113,7 +107,6 @@
   }
   .jackpots-list-description {
     margin-top: 10px;
-    font-size: 12px;
   }
 }
 

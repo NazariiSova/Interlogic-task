@@ -1,0 +1,238 @@
+.ultimate {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 190px;
+}
+.ultimate__title,
+.ultimate__description {
+  display: flex;
+  width: 400px;
+}
+.ultimate__text-container {
+  margin-left: 200px;
+  width: 600px;
+}
+.ultimate__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ultimate__card {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ultimate__img-container {
+  background-image: url("../img/background/ultimate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 750px;
+  margin-top: 55px;
+
+  position: relative;
+}
+.ultimate__img-front {
+  position: absolute;
+  top: 60px;
+  left: 130px;
+  height: 720px;
+  z-index: 1;
+}
+.ultimate__img-back {
+  position: absolute;
+  top: 70px;
+  left: -75px;
+}
+.ultimate__card-title {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.ultimate__card-image-app {
+  background-color: #ffecef;
+}
+.ultimate__card-image-cloud {
+  background-color: #fff6d3;
+}
+.ultimate__card-image-ux {
+  background-color: #e4ffee;
+}
+.ultimate__card-image-support {
+  background-color: #fdeee4;
+}
+.ultimate__card-image {
+  margin-top: 70px;
+}
+.ultimate__card-img {
+  height: 50px;
+}
+.ultimate__button {
+  margin-top: 55px;
+}
+
+@media (max-width: 1460px) {
+  .ultimate {
+    padding-left: 5%;
+  }
+  .ultimate__text-container {
+    margin-left: 20px;
+    width: 560px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .ultimate {
+    display: block;
+    margin-left: 90px;
+    margin-top: 90px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .ultimate__title,
+  .ultimate__description {
+    display: flex;
+    width: 400px;
+  }
+  .ultimate__text-container {
+    margin-left: 20px;
+    width: 400px;
+  }
+  .ultimate__cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .ultimate__card {
+    width: calc(50% - 40px);
+  }
+  .ultimate__card-image {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .ultimate__card-title {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .ultimate__card-description {
+    margin-top: 1px;
+  }
+  .ultimate__img-container {
+    background-image: url("../img/background/ultimate.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+    margin-top: 85px;
+    position: absolute;
+    right: -160px;
+    top: 0;
+  }
+  .ultimate__img-front {
+    top: 50px;
+    left: 90px;
+    height: 420px;
+    z-index: 1;
+  }
+  .ultimate__img-back {
+    top: 55px;
+    left: -30px;
+    height: 380px;
+  }
+  .ultimate__card-image {
+    margin-top: 20px;
+  }
+  .ultimate__button {
+    margin-top: 40px;
+    margin-left: 5px;
+  }
+  .ultimate__card-img {
+    height: 25px;
+  }
+}
+
+@media (max-width: 796px) {
+  .ultimate {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+  }
+  .ultimate__title,
+  .ultimate__description {
+    display: flex;
+    width: 300px;
+  }
+  .ultimate__text-container {
+    margin-left: 0px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ultimate__cards {
+    margin-top: 500px;
+    margin-top: 50px;
+    flex-basis: 45%;
+    margin: 10px;
+    order: 2;
+  }
+  .ultimate__card {
+    width: 300px;
+    align-items: center;
+  }
+  .ultimate__card-image {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .ultimate__card-title {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .ultimate__card-description {
+    margin-top: 0px;
+  }
+  .ultimate__img-container {
+    background-image: url("../img/background/ultimate.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 320px;
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    top: -690px;
+    right: 0px;
+  }
+  .ultimate__img-front {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+    z-index: 1;
+  }
+  .ultimate__img-back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 220px;
+  }
+  .ultimate__card-image {
+    margin-top: 20px;
+  }
+  .ultimate__button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    order: 3;
+  }
+  .ultimate__card-img {
+    height: 25px;
+  }
+}

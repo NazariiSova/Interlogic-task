@@ -30,15 +30,7 @@
   margin-left: 35px;
 }
 .features__text-main-title {
-  font-size: 36px;
-  font-weight: 600;
-  color: #242f51;
   width: 300px;
-}
-.features__text-subtitle {
-  font-size: 16px;
-  font-weight: 400;
-  color: #616368;
 }
 .features__text-text {
   margin-left: 30px;
@@ -48,7 +40,7 @@
 }
 .features-list-description {
   width: 260px;
-  color: #616368;
+
 }
 .features__text-speed-img-container {
   background-color: #ffecef;
@@ -135,7 +127,6 @@
   }
   .features-list-description {
     width: 160px;
-    font-size: 10px;
   }
   .features-list-title {
     font-size: 12px;
