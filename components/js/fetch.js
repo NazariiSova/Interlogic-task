@@ -53,3 +53,9 @@ fetch('./components/jackpots/jackpots.html')
     .then(data => {
         document.getElementById('cardsComponent').innerHTML = data;
     });
+
+    fetch('./components/satisfaction/satisfaction.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('satisfactionComponent').innerHTML = data;
+    });
