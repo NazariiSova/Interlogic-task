@@ -29,33 +29,39 @@ fetch('./components/jackpots/jackpots.html')
         document.getElementById('jackpotsComponent').innerHTML = data;
     });
 
-    
-    fetch('./components/integration/integration.html')
+
+fetch('./components/integration/integration.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('integrationComponent').innerHTML = data;
     });
 
-    fetch('./components/app/app.html')
+fetch('./components/app/app.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('appComponent').innerHTML = data;
     });
 
-    fetch('./components/ultimate/ultimate.html')
+fetch('./components/ultimate/ultimate.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('ultimateComponent').innerHTML = data;
     });
 
-    fetch('./components/cards/cards.html')
+fetch('./components/cards/cards.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('cardsComponent').innerHTML = data;
     });
 
-    fetch('./components/satisfaction/satisfaction.html')
+fetch('./components/satisfaction/satisfaction.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('satisfactionComponent').innerHTML = data;
+    });
+
+fetch('./components/faq/faq.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('faqComponent').innerHTML = data;
     });

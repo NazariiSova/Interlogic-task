@@ -158,14 +158,14 @@
 @media (max-width: 796px) {
   .ultimate {
     padding: 0;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     margin:0;
+    align-items: center;
   }
   .ultimate__title,
   .ultimate__description {
-    display: flex;
+ 
     width: 300px;
   }
   .ultimate__text-container {
@@ -199,32 +199,7 @@
     margin-top: 0px;
   }
   .ultimate__img-container {
-    background-image: url("../img/background/ultimate.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 320px;
-    margin-top: 5px;
-    position: relative;
-    display: flex;
-    top: -690px;
-    right: 0px;
-  }
-  .ultimate__img-front {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 250px;
-    z-index: 1;
-  }
-  .ultimate__img-back {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 220px;
-  }
-  .ultimate__card-image {
-    margin-top: 20px;
+  display: none;
   }
   .ultimate__button {
     margin-top: 40px;

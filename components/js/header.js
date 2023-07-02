@@ -3,7 +3,7 @@ function handlerShowMenu() {
   const hamburger = document.getElementById("header-menu-hamburger");
   hamburger.classList.add("show-menu")
   hamburger.classList.remove("hide-menu");
-
+console.log(hamburger);
 }
 
 function handlerHideMenu() {

@@ -49,6 +49,7 @@ body {
   }
   .title {
     font-size: 25px;
+  justify-content: center;
   }
   .button {
     height: 40px;
