@@ -83,6 +83,7 @@
   color: #242f51;
   font-weight: 600;
   font-size: 20px;
+  padding-inline:3%;
 }
 .card__description {
   color: #999ca5;

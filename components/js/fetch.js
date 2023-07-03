@@ -65,3 +65,14 @@ fetch('./components/faq/faq.html')
     .then(data => {
         document.getElementById('faqComponent').innerHTML = data;
     });
+    fetch('./components/download/download.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('downloadComponent').innerHTML = data;
+    });
+
+    fetch('./components/footer/footer.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('footerComponent').innerHTML = data;
+    });

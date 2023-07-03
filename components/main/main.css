@@ -1,7 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins";
+}
+main {
+  position: relative;
+  z-index: 1;
 }
 .button {
   display: flex;
@@ -13,6 +20,13 @@ body {
   border-radius: 50px;
   height: 57px;
   width: 170px;
+}
+
+.button:hover {
+  background-color: #2500f9d1;
+}
+.button:active{
+  background-color: #1e00ff;
 }
 .centring {
   display: flex;
@@ -49,7 +63,7 @@ body {
   }
   .title {
     font-size: 25px;
-  justify-content: center;
+    justify-content: center;
   }
   .button {
     height: 40px;
@@ -61,5 +75,12 @@ body {
   .circle {
     width: 50px;
     height: 50px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
   }
 }

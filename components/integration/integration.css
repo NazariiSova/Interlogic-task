@@ -63,22 +63,22 @@
     width: 400px;
     height: 400px;
   }
-  .integration__img-java{
+  .integration__img-java {
     height: 48px;
   }
-  .integration__img-hashtag{
+  .integration__img-hashtag {
     height: 43px;
   }
-  .integration__img-git{
+  .integration__img-git {
     height: 38px;
   }
-  .integration__img-bird{
+  .integration__img-bird {
     height: 38px;
   }
-  .integration__img-swift{
+  .integration__img-swift {
     height: 38px;
   }
-  .integration__img-hexagon{
+  .integration__img-hexagon {
     height: 41px;
   }
   .integration__img-java-container {
@@ -99,75 +99,76 @@
   .integration__img-hexagon-container {
     transform: translate(calc(-50% + 132px), 118px);
   }
-  
+
   .integration__text-description {
     margin-top: 10px;
   }
   .integration__text-button {
     margin-top: 15px;
-    
   }
 }
 
 @media (max-width: 796px) {
-    .integration {
-      margin-top: 50px;
-      flex-direction: column;
-      align-items: center;
-      margin-left: 5px;
-      margin-right: 25px;
-    }
-    .integration__img-container {
-      background-size: 300px;
-      width: 300px;
-      height: 300px;
-    }
-  
-    .integration__img-java{
-      height: 35px;
-    }
-    .integration__img-hashtag{
-      height: 33px;
-    }
-    .integration__img-git{
-      height: 29px;
-    }
-    .integration__img-bird{
-      height: 28px;
-    }
-    .integration__img-swift{
-      height: 28px;
-    }
-    .integration__img-hexagon{
-      height: 32px;
-    }
-    .integration__img-java-container {
-      transform: translate(calc(-50% + -114px), 62px);
-    }
-    .integration__img-hashtag-container {
-      transform: translate(calc(-50% + -70px), 17px);
-    }
-    .integration__img-git-container {
-      transform: translate(calc(-50% + -14px), 41px);
-    }
-    .integration__img-bird-container {
-      transform: translate(calc(-50% + 35px), 15px);
-    }
-    .integration__img-swift-container {
-      transform: translate(calc(-50% + 43px), 106px);
-    }
-    .integration__img-hexagon-container {
-      transform: translate(calc(-50% + 100px), 88px);
-    }
-    .integration__text-container {
-      margin-left: 10px;
-    }
-  
-    .integration__text-description {
-      margin-top: 10px;
-    }
-    .integration__text-button {
-      margin-top: 15px;
-      
-    }
+  .integration {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 25px;
   }
+  .integration__img-container {
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .integration__img-java {
+    height: 35px;
+  }
+  .integration__img-hashtag {
+    height: 33px;
+  }
+  .integration__img-git {
+    height: 29px;
+  }
+  .integration__img-bird {
+    height: 28px;
+  }
+  .integration__img-swift {
+    height: 28px;
+  }
+  .integration__img-hexagon {
+    height: 32px;
+  }
+  .integration__img-java-container {
+    transform: translate(calc(-50% + -114px), 62px);
+  }
+  .integration__img-hashtag-container {
+    transform: translate(calc(-50% + -70px), 17px);
+  }
+  .integration__img-git-container {
+    transform: translate(calc(-50% + -14px), 41px);
+  }
+  .integration__img-bird-container {
+    transform: translate(calc(-50% + 35px), 15px);
+  }
+  .integration__img-swift-container {
+    transform: translate(calc(-50% + 43px), 106px);
+  }
+  .integration__img-hexagon-container {
+    transform: translate(calc(-50% + 100px), 88px);
+  }
+  .integration__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .integration__text-description {
+    margin-top: 10px;
+  }
+  .integration__text-button {
+    margin-top: 15px;
+  }
+}

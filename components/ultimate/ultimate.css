@@ -157,23 +157,32 @@
 
 @media (max-width: 796px) {
   .ultimate {
+    width: 100%;
     padding: 0;
     flex-direction: column;
     justify-content: center;
-    margin:0;
+    margin:100px 0 0 0;
     align-items: center;
   }
   .ultimate__title,
   .ultimate__description {
- 
+    margin-inline:auto ;
     width: 300px;
   }
   .ultimate__text-container {
+    margin-inline:auto ;
     margin-left: 0px;
-    width: 300px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .ultimate__text-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   .ultimate__cards {
     margin-top: 500px;
@@ -204,8 +213,10 @@
   .ultimate__button {
     margin-top: 40px;
     display: flex;
+    justify-content: center;
     align-items: center;
     order: 3;
+    margin-inline:auto ;
   }
   .ultimate__card-img {
     height: 25px;

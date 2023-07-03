@@ -212,7 +212,9 @@
   }
   .home__text {
     display: flex;
+    width: 100%;
     justify-content: center;
+    align-items: center;
     margin-top: 0px;
     order: 2;
     position: relative;
@@ -231,7 +233,8 @@
   }
   .home__title {
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
+    
   }
   .home__description {
     margin-top: 5px;
