@@ -86,10 +86,10 @@
     margin-top: 50px;
   }
   .app__title{
-    padding-inline:3% ;
+    padding-inline:15px ;
   }
   .app__description{
-    padding-inline:3% ;
+    padding-inline:15px ;
   }
     .app__card {
       width: calc(50% - 10px);

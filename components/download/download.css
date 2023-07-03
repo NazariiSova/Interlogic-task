@@ -74,6 +74,7 @@
     min-height: 435px;
     background-position: right 0px bottom 31px;
     overflow: hidden;
+    margin-top: 50px;
   }
   .download__text {
     padding-top: 10px;
