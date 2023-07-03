@@ -5,18 +5,16 @@
   height: 500px;
   background-position: 101% 10%;
   padding-left: 10%;
+  margin-top: 15px;
 }
-
 .download__text {
   padding-top: 70px;
 }
-
 .download__title {
   font-size: 48px;
   font-weight: 700;
   color: #242f51;
 }
-
 .download__description {
   margin-top: 36px;
   width: 635px;
@@ -24,7 +22,6 @@
   font-weight: 400;
   color: #616368;
 }
-
 .download__images {
   display: flex;
   justify-content: space-around;
@@ -41,17 +38,14 @@
     background-position: 101% -12px;
     padding-left: 5%;
   }
-
   .download__text {
     padding-top: 30px;
   }
-
   .download__title {
     font-size: 38px;
     font-weight: 700;
     color: #242f51;
   }
-
   .download__description {
     margin-top: 26px;
     width: 535px;
@@ -59,14 +53,12 @@
     font-weight: 600;
     color: #3a437d;
   }
-
   .download__images {
     display: flex;
     justify-content: space-around;
     width: 320px;
     margin-top: 30px;
   }
-
   .download__img-market,
   .download__img-store {
     height: 40px;
@@ -83,11 +75,9 @@
     background-position: right 0px bottom 31px;
     overflow: hidden;
   }
-
   .download__text {
     padding-top: 10px;
   }
-
   .download__title {
     display: flex;
     justify-content: center;
@@ -95,7 +85,6 @@
     font-weight: 700;
     color: #242f51;
   }
-
   .download__description {
     display: flex;
     justify-content: center;
@@ -106,14 +95,12 @@
     color: #3b3b40;
     padding-inline:2%;
   }
-
   .download__images {
     display: flex;
     justify-content: space-around;
     width: 220px;
     margin-top: 30px;
   }
-
   .download__img-market,
   .download__img-store {
     height: 30px;

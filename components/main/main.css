@@ -21,7 +21,6 @@ main {
   height: 57px;
   width: 170px;
 }
-
 .button:hover {
   background-color: #2500f9d1;
 }
@@ -80,7 +79,5 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .description {
   }
 }

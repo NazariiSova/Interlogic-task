@@ -1,7 +1,7 @@
 .satisfaction {
   display: flex;
   width: 100%;
-  margin-top: 250px;
+  margin-top: 160px;
 }
 .satisfaction__world {
   background-image: url("../img/background/world.png");
@@ -284,6 +284,7 @@
     font-size: 20px;
   }
   .satisfaction__text-subtitle {
+    padding-inline:3%;
     margin-top: 10px;
   }
   .satisfaction__text-stars-container {
@@ -292,6 +293,7 @@
   .satisfaction__text-stars-img {
     height: 15px;
     margin-top: 5px;
+    padding-left: 3%;
   }
   .satisfaction__text-bottom-title {
     font-size: 15px;
@@ -301,7 +303,7 @@
     align-items: center;
   }
   .satisfaction__text-description {
-
+    padding-inline:3%;
     margin-top: 10px;
     width: 100%;
   }

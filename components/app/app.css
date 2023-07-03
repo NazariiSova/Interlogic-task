@@ -1,8 +1,14 @@
 .app {
-  margin-top: 180px;
   text-align: center;
 }
+.app__line{
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 2px;
+  margin-top: 40px;
+}
 .app__title {
+  margin-top: 140px;
   text-align: center;
 }
 .app__cards {
@@ -78,6 +84,12 @@
 @media (max-width: 796px) {
   .app{
     margin-top: 50px;
+  }
+  .app__title{
+    padding-inline:3% ;
+  }
+  .app__description{
+    padding-inline:3% ;
   }
     .app__card {
       width: calc(50% - 10px);
